@@ -10,11 +10,11 @@ import { AppRegistry, Text, View, StyleSheet } from 'react-native';
 class AwesomeProject extends Component {
   render() {
     return (
-      <View style={{flex: 1}}>
-        <Text style={{flex: 1, backgroundColor: 'skyblue'}}>just red</Text>
-        <Text style={{flex: 1, backgroundColor: 'grey'}}>just bigblue</Text>
-        <Text style={{flex: 1, backgroundColor: 'white'}}>bigblue, then red</Text>
-        <Text style={{flex: 1, backgroundColor: 'red'}}>red, then bigblue</Text>
+      <View style={{flex: 1, flexDirection: 'row'}}>
+        <Text style={{width:50, height: 50, backgroundColor: 'skyblue'}}>just red</Text>
+        <Text style={{width:50, height: 50, backgroundColor: 'grey'}}>just bigblue</Text>
+        <Text style={{width:50, height: 50, backgroundColor: 'white'}}>bigblue, then red</Text>
+        <Text style={{width:50, height: 50, backgroundColor: 'red'}}>red, then bigblue</Text>
       </View>
     );
   }
