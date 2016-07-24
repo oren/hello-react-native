@@ -23,7 +23,7 @@ cd AwesomeProject
 adb reverse tcp:8081 tcp:8081   # might not be needed
 npm start                       # run the packager (port 8081)
 react-native run-android        # Building and installing the app on the device/emulator
-shake phone, debug server host & port: 192.168.1.102:8081
+shake phone, debug server host & port: 192.168.1.102:8081  also 'Enable Live Reload'
 ```
 
 ### misc
