@@ -1,5 +1,7 @@
 # Hello React Native
 
+https://facebook.github.io/react-native/docs/getting-started.html
+
 ```
 npm install
 npm start
@@ -13,8 +15,6 @@ emulator -avd test
 ```
 
 ### run the app
-
-https://facebook.github.io/react-native/docs/getting-started.html
 
 ```
 sudo npm install -g react-native-cli
