@@ -11,7 +11,7 @@ class AwesomeProject extends Component {
   render() {
     return (
       <View>
-        <Text style={styles.red}>just red</Text>
+        <Text style={{width: 360, height:50, backgroundColor: 'skyblue'}}>just red</Text>
         <Text style={styles.bigblue}>just bigblue</Text>
         <Text style={[styles.bigblue, styles.red]}>bigblue, then red</Text>
         <Text style={[styles.red, styles.bigblue]}>red, then bigblue</Text>
